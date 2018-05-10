@@ -6,7 +6,7 @@
 
         composer clear-cache
         export COMPOSER_PROCESS_TIMEOUT=2000
-        composer create-project --no-interaction acquia/blt-project MY_PROJECT
+        composer create-project -sdev rwohleb/blt-project MY_PROJECT 8.9.x-dev
         cd MY_PROJECT
 
 1. Install the `blt` alias and follow on-screen instructions:

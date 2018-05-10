@@ -14,7 +14,7 @@
     "type": "composer-plugin",
     "license": "GPL-2.0-only",
     "require": {
-        "cweagans/composer-patches":        "^1.6.4",
+        "cweagans/composer-patches":        "dev-1.x",
         "asm89/twig-lint":                  "^1.0.2",
         "composer/installers":              "^1.2.0",
         "composer-plugin-api":              "^1.0.0",
@@ -63,5 +63,11 @@
     "prefer-stable": true,
     "require-dev": {
         "guzzlehttp/guzzle": "^6.2"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/rwohleb/composer-patches"
+        }
+    ]
 }
